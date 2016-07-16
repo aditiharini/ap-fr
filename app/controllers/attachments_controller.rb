@@ -8,7 +8,7 @@ class AttachmentsController < ApplicationController
         @attachments = []
         Attachment.where(subject:params[:subject]).find_each do |attachment|
             @attachments.push(attachment)
-            attachment.displayPath
+            # attachment.displayPath
         end
         # @subjects = {:chemistry => [""]}
     end

@@ -1,37 +1,24 @@
-<h1> All Files</h1>
+<h1> Chemistry</h1>
+
 <h2>Equilibrium</h2>
 <ul>
-   <% @attachments.each do |file|%>
-   <% if file.solubility %>
-   <li><%= link_to File.basename(file.filePath, ".pdf"), file.filePath %></li>
-   <% end %>
-   <% end %>
+   <%= render partial: "attachment", collection: @attachments, locals: {topic: "solubility"} %>
 </ul>
+
 <h2> Thermochemistry</h2>
 <ul>
-   <%= render :partial => "attachment", :collection => @attachments, :locals => {:topic ="electrochemistry"} %>
+   <%= render partial: "attachment", collection: @attachments, locals: {topic: "thermochemistry"} %>
 </ul>
+
 <h2>Electrochemistry</h2>
 <ul>
-   <% @attachments.each do |file|%>
-   <% if file.electrochemistry %>
-   <li><%= link_to File.basename(file.filePath, ".pdf"), file.filePath %></li>
-   <% end %>
-   <% end %>
+   <%= render partial: "attachment", collection: @attachments, locals: {topic: "electrochemistry"} %>
 </ul>
 <h2>Kinetics</h2>
 <ul>
-   <% @attachments.each do |file|%>
-   <% if file.kinetics %>
-   <li><%= link_to File.basename(file.filePath, ".pdf"), file.filePath %></li>
-   <% end %>
-   <% end %>
+   <%= render partial: "attachment", collection: @attachments, locals: {topic: "kinetics"} %>
 </ul>
 <h2> Intermolecular Forces</h2>
 <ul>
-   <% @attachments.each do |file|%>
-   <% if file.intermolecularForces%>
-   <li><%= link_to File.basename(file.filePath, ".pdf"), file.filePath %></li>
-   <% end %>
-   <% end %>
+   <%= render partial: "attachment", collection: @attachments, locals: {topic: "intermolecularForces"} %>
 </ul>
