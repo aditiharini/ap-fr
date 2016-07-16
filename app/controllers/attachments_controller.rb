@@ -3,6 +3,7 @@ require 'open-uri'
 require 'docsplit'
 require 'pdftk'
 class AttachmentsController < ApplicationController
+    helper AttachmentsHelper
     def index
         @attachments = []
         Attachment.where(subject:params[:subject]).find_each do |attachment|

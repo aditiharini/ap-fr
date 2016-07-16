@@ -1,0 +1,3 @@
+<% if(checkSubject(attachment,topic) %>
+<li><%= link_to File.basename(attachment.filePath, ".pdf"), attachment.filePath %></li>
+<% end %>

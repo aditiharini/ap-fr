@@ -9,11 +9,7 @@
 </ul>
 <h2> Thermochemistry</h2>
 <ul>
-   <% @attachments.each do |file|%>
-   <% if file.thermochemistry %>
-   <li><%= link_to File.basename(file.filePath, ".pdf"), file.filePath %></li>
-   <% end %>
-   <% end %>
+   <%= render :partial => "attachment", :collection => @attachments, :locals => {:topic ="electrochemistry"} %>
 </ul>
 <h2>Electrochemistry</h2>
 <ul>
