@@ -1,0 +1,2 @@
+module PdfReaderControllerHelper
+end

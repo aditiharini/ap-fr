@@ -1,0 +1,96 @@
+InfoBegin
+InfoKey: ModDate
+InfoValue: D:20160716144420Z00'00'
+InfoBegin
+InfoKey: Subject
+InfoValue: AP Chemistry
+InfoBegin
+InfoKey: CreationDate
+InfoValue: D:20160716144420Z00'00'
+InfoBegin
+InfoKey: Author
+InfoValue: Educational Testing Service
+InfoBegin
+InfoKey: Keywords
+InfoValue: AP Chemistry Free-Response Questions Form B
+InfoBegin
+InfoKey: Title
+InfoValue: 2002 AP Chemistry Free-Response Questions Form B
+InfoBegin
+InfoKey: Creator
+InfoValue: Windows NT 4.0
+InfoBegin
+InfoKey: Producer
+InfoValue: GPL Ghostscript 9.10
+PdfID0: 9d42fc2bd9493805af397af7bf31b4c9
+PdfID1: 9d42fc2bd9493805af397af7bf31b4c9
+NumberOfPages: 13
+PageMediaBegin
+PageMediaNumber: 1
+PageMediaRotation: 0
+PageMediaRect: 0 0 612 792
+PageMediaDimensions: 612 792
+PageMediaBegin
+PageMediaNumber: 2
+PageMediaRotation: 90
+PageMediaRect: 0 0 612 792
+PageMediaDimensions: 612 792
+PageMediaBegin
+PageMediaNumber: 3
+PageMediaRotation: 0
+PageMediaRect: 0 0 612 792
+PageMediaDimensions: 612 792
+PageMediaBegin
+PageMediaNumber: 4
+PageMediaRotation: 0
+PageMediaRect: 0 0 612 792
+PageMediaDimensions: 612 792
+PageMediaBegin
+PageMediaNumber: 5
+PageMediaRotation: 0
+PageMediaRect: 0 0 612 792
+PageMediaDimensions: 612 792
+PageMediaBegin
+PageMediaNumber: 6
+PageMediaRotation: 0
+PageMediaRect: 0 0 612 792
+PageMediaDimensions: 612 792
+PageMediaBegin
+PageMediaNumber: 7
+PageMediaRotation: 0
+PageMediaRect: 0 0 612 792
+PageMediaDimensions: 612 792
+PageMediaBegin
+PageMediaNumber: 8
+PageMediaRotation: 0
+PageMediaRect: 0 0 612 792
+PageMediaDimensions: 612 792
+PageMediaBegin
+PageMediaNumber: 9
+PageMediaRotation: 0
+PageMediaRect: 0 0 612 792
+PageMediaDimensions: 612 792
+PageMediaBegin
+PageMediaNumber: 10
+PageMediaRotation: 0
+PageMediaRect: 0 0 612 792
+PageMediaDimensions: 612 792
+PageMediaBegin
+PageMediaNumber: 11
+PageMediaRotation: 0
+PageMediaRect: 0 0 612 792
+PageMediaDimensions: 612 792
+PageMediaBegin
+PageMediaNumber: 12
+PageMediaRotation: 0
+PageMediaRect: 0 0 612 792
+PageMediaDimensions: 612 792
+PageMediaBegin
+PageMediaNumber: 13
+PageMediaRotation: 0
+PageMediaRect: 0 0 612 792
+PageMediaDimensions: 612 792
+PageLabelBegin
+PageLabelNewIndex: 1
+PageLabelStart: 1
+PageLabelNumStyle: DecimalArabicNumerals
