@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160716022525) do
+ActiveRecord::Schema.define(version: 20160716204118) do
 
   create_table "atachments", force: :cascade do |t|
     t.datetime "created_at", null: false
@@ -28,6 +28,9 @@ ActiveRecord::Schema.define(version: 20160716022525) do
     t.boolean  "kinetics"
     t.boolean  "intermolecularForces"
     t.string   "subject"
+    t.boolean  "question1"
+    t.boolean  "question2"
+    t.boolean  "question3"
   end
 
 end

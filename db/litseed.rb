@@ -34,80 +34,59 @@ bothLinks.each do |singleLink|
 end
 puts questions
 
-
-    
     questions.each do |filePath|
-        url = filePath
-        basename = File.basename(url, ".pdf")
-        fromUrl = true
-        begin
-        if fromUrl
-            io     = open(filePath)
-            reader = PDF::Reader.new(io)
-        end
+        
+        io     = open(filePath)
+        reader = PDF::Reader.new(io)
         
         q1 = false
         q2 = false
         q3 = false
 
         pageNumber =1
-        
-        
-
-        # begin
+        url = filePath
+        basename = File.basename(url, ".pdf")
+        begin
         Docsplit.extract_pages(filePath, output:'app/assets/lit')
-        puts "got to docsplit"
 
         reader.pages.each do |page|
-            puts "got to page reading"
             # puts page.fonts
             pagePath = basename + "_" + pageNumber.to_s + '.pdf'
             pageText = page.text
-            # puts pageText
 
-            if(pageNumber>1)
-                puts "got into if statement"
+            text += pageText
             
-                if(pageText =~ /Question 1(.*)/)
+            if(pageNumber>1)
+            
+                if(text =~ /Question 1(.*)/)
                     q1 = true
                     q2 = false
                     q3 = false
                 
-                elsif(pageText =~ /Question 2(.*)/ )
+                elsif(text =~ /Question 2(.*)/ )
                     q2 = true
                     q1 = false
                     q3 = false
-                   
-                elsif(pageText =~ /Question 3(.*)/ )
+                elsif(text =~ /Question 3(.*)/ )
                     q3 = true
                     q1= false
                     q2 = false
-                    
                 end 
-                puts "created db entry"
             
                 Attachment.create(filePath:pagePath, question1:q1, question2:q2, question3:q3, subject:"lit")
             end
-            pageNumber = pageNumber + 1
-        
+        pageNumber = pageNumber + 1
         end
         rescue
-            puts "java error-" + url
+            puts "java error-"+url
             IO.copy_stream(open(url), 'app/assets/lit/downloaded.pdf')
             filePath = 'app/assets/lit/' + basename + '.pdf'
             %x( gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -sOutputFile="#{filePath}" app/assets/lit/downloaded.pdf)
             reader = PDF::Reader.new(filePath)
-            fromUrl = false
             retry
         end
-    
-        # rescue
-        #     puts "encryption error"
-        #     next
-        # end
-end
 
-    
+end
 
 
     

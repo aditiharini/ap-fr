@@ -1,0 +1,51 @@
+InfoBegin
+InfoKey: ModDate
+InfoValue: D:20160717151109Z00'00'
+InfoBegin
+InfoKey: Subject
+InfoValue: AP English Literature and Composition
+InfoBegin
+InfoKey: CreationDate
+InfoValue: D:20160717151109Z00'00'
+InfoBegin
+InfoKey: Author
+InfoValue: Educational Testing Service
+InfoBegin
+InfoKey: Keywords
+InfoValue: AP English Literature and Composition Free-Response Questions Form B
+InfoBegin
+InfoKey: Title
+InfoValue: 2002 AP English Literature and Composition Free-Response Questions Form B
+InfoBegin
+InfoKey: Creator
+InfoValue: Windows NT 4.0
+InfoBegin
+InfoKey: Producer
+InfoValue: GPL Ghostscript 9.10
+PdfID0: 15e7641d949660241cf8ad0193d0968b
+PdfID1: 15e7641d949660241cf8ad0193d0968b
+NumberOfPages: 4
+PageMediaBegin
+PageMediaNumber: 1
+PageMediaRotation: 0
+PageMediaRect: 0 0 612 792
+PageMediaDimensions: 612 792
+PageMediaBegin
+PageMediaNumber: 2
+PageMediaRotation: 0
+PageMediaRect: 0 0 612 792
+PageMediaDimensions: 612 792
+PageMediaBegin
+PageMediaNumber: 3
+PageMediaRotation: 0
+PageMediaRect: 0 0 612 792
+PageMediaDimensions: 612 792
+PageMediaBegin
+PageMediaNumber: 4
+PageMediaRotation: 0
+PageMediaRect: 0 0 612 792
+PageMediaDimensions: 612 792
+PageLabelBegin
+PageLabelNewIndex: 1
+PageLabelStart: 1
+PageLabelNumStyle: DecimalArabicNumerals

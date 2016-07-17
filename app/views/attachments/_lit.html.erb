@@ -1,0 +1,16 @@
+<h1> Lit</h1>
+
+<h2>Poetry</h2>
+<ul>
+   <%= render partial: "attachment", collection: @attachments, locals: {topic: "question1"} %>
+</ul>
+
+<h2> Prose</h2>
+<ul>
+   <%= render partial: "attachment", collection: @attachments, locals: {topic: "question2"} %>
+</ul>
+
+<h2>Open Response</h2>
+<ul>
+   <%= render partial: "attachment", collection: @attachments, locals: {topic: "question3"} %>
+</ul>

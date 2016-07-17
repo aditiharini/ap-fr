@@ -1,0 +1,6 @@
+require 'pdf/reader'
+require 'open-uri'
+require 'docsplit'
+require 'pdftk'
+require 'rubygems'
+require 'nokogiri'
